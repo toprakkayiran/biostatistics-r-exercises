@@ -1,6 +1,5 @@
-data<-read.csv("C:/Users/topra/Desktop/BMM 422/Assignment/AssignmentData.csv",
-               sep = ";",
-               header = TRUE,)
+data<-read.csv("AssignmentData.csv", sep = ";", header = TRUE)
+
 #First, each plot is generated separately. Then, all plots are
 #displayed together in a single plot. 
 #Since the final plot is large, R automatically zooms it in a separate tab.
@@ -642,4 +641,5 @@ for (i in seq(1, length(pairs), by = 2)) {
   
   c_index <- c_index + 1
 }
+
 
